@@ -14,8 +14,7 @@ app.use(
 app.post('/new-message', function(req, res) {
   const { message } = req.body
   //Each message contains "text" and a "chat" object, which has an "id" which is the chat id
-         console.log('Message gotten')
-
+         console.log('got message')
   if (!message || message.text.toLowerCase().indexOf('marco') < 0) {
     // In case a message is not present, or if our message does not have the word marco in it, do nothing and return an empty response
     return res.end()
