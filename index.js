@@ -42,6 +42,6 @@ app.post('/new-message', function(req, res) {
 })
 
 // Finally, start our server
-app.listen(80, function() {
-  console.log('Telegram app listening on port 80!')
+app.listen(88, function() {
+  console.log('Telegram app listening on port 88!')
 })
